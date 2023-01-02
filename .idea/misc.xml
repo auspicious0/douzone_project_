@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_add.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_card_view.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_card_view2.xml" value="0.136" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_dbhelper.xml" value="0.11510416666666666" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_item2_recyclerview.xml" value="0.1140625" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_music.xml" value="0.19649122807017544" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_my_setting_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_one_fragment.xml" value="0.128" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_phy.xml" value="0.12" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_poem.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_progremming.xml" value="0.152" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_setting.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_three_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_two_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/activity_workout.xml" value="0.12" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/card_layout.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/deco_music.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/fragment_five.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/fragment_four.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/fragment_my_setting.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/fragment_poem1.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/fragment_poem2.xml" value="0.11626139817629179" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/fragment_poem3.xml" value="0.11626139817629179" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/fragment_six.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/item_recyclerview.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/layout/navigation_header.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/menu/menu_add.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/menu/menu_main.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/menu/menu_navigation.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/xml/file_paths.xml" value="0.1" />
+        <entry key="..\:/Users/LG/Desktop/final_project/app/src/main/res/xml/settings.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

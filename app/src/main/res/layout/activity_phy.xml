@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:background="#bbdefb">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="analytic philosophy"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:layout_gravity="center_horizontal"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="5dp"
+            android:backgroundTint="#2196f3">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:orientation="vertical"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:text="Friedrich Ludwig Gottlob Frege"
+                    android:id="@+id/textView"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:id="@+id/imageView"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/prege"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:text="Über Sinn und Bedeutung"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:layout_gravity="center_horizontal"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="5dp"
+            android:backgroundTint="#2196f3">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:orientation="vertical"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:text="Bertrand Arthur William Russell"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/russel"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:text="Russell's paradox"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:layout_gravity="center_horizontal"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="5dp"
+            android:backgroundTint="#2196f3">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:orientation="vertical"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:text="Ludwig Josef Johann Wittgenstein"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/game"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:text="language-game"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

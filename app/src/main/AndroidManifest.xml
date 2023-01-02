@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="kr.ac.hallym.final_project">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Final_project"
+        tools:targetApi="31">
+        <activity
+            android:name=".progremming"
+            android:exported="false" />
+        <activity
+            android:name=".music"
+            android:exported="false" />
+        <activity
+            android:name=".workout"
+            android:exported="false"
+            android:parentActivityName=".CardView"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar.Bridge" />
+        <activity
+            android:name=".Phy"
+            android:exported="false" />
+        <activity
+            android:name=".item_2_Recyclerview"
+            android:exported="false" />
+        <activity
+            android:name=".Poem"
+            android:exported="false" />
+        <activity
+            android:name=".CardView"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MySettingFragment"
+            android:exported="false" />
+        <activity
+            android:name=".DBHelper"
+            android:exported="false" />
+        <activity
+            android:name=".AddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThreeFragment"
+            android:exported="false" />
+        <activity
+            android:name=".TwoFragment"
+            android:exported="false" />
+        <activity
+            android:name=".OneFragment"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CardViewActivity"
+            android:exported="false"
+            android:parentActivityName=".CardView"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar.Bridge" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="kr.ac.hallym.final_project.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>
