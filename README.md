@@ -7,21 +7,11 @@
 해당 프로젝트는 더존 비즈온에서 발표를 진행한 안드로이드스튜디오 프로젝트 입니다. 프로젝트의 자세한 설명을 담은 파일이 준비 되어 있습니다.
 final_project_.pdf를 확인해 주시기 바랍니다.
 
-### 설치
+![image](https://github.com/auspicious0/douzone_project_/assets/108572025/90d941da-9c07-49fd-a720-5811cd48ef95)
 
-배포 목적이 아닌 기업 발표 목적으로 개발된 프로젝트 입니다. 따라서 설치는 불가능합니다.
 
 ### 사용법
 
 위에 설명한 final_project_.pdf 에 자세하게 나와 있습니다.
 확인해 주시기 바랍니다.
 
-## 기여하기
-
-이 프로젝트에 기여하려면 다음 단계를 따르세요.
-
-1. 포크(Fork)하기
-2. 새로운 브랜치 만들기 (`git checkout -b feature/기능`)
-3. 변경 사항 커밋하기 (`git commit -m '기능 추가'`)
-4. 변경 사항 푸시하기 (`git push origin feature/기능`)
-5. 풀 리퀘스트(Pull Request) 생성
